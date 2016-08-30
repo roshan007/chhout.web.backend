@@ -1,0 +1,352 @@
+[
+    {
+        "pk": 1,
+        "model": "products.Product",
+        "fields": {
+            "name": "Aloo Pyaz Prantha",
+            "logo": "/products/aloo-paratha.jpg",
+            "price": "40",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "PRT",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.Product",
+        "fields": {
+            "name": "Paneer Prantha",
+            "logo": "/products/aloo-paratha.jpg",
+            "price": "50",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "PRT",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.Product",
+        "fields": {
+            "name": "Egg Prantha",
+            "logo": "/products/aloo-paratha.jpg",
+            "price": "60",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "PRT",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.Product",
+        "fields": {
+            "name": "Plain Maggie",
+            "logo": "/products/aloo-paratha.jpg",
+            "price": "30",
+            "rating": "4.5",
+            "availability": "1",
+            "category": "MGG",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.Product",
+        "fields": {
+            "name": "Veg Maggie",
+            "logo": "/products/veg-maggie.jpg",
+            "price": "40",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "MGG",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.Product",
+        "fields": {
+            "name": "Egg Maggie",
+            "logo": "/products/veg-maggie.jpg",
+            "price": "60",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "MGG",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.Product",
+        "fields": {
+            "name": "Paneer Maggie",
+            "logo": "/products/veg-maggie.jpg",
+            "price": "70",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "MGG",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.Product",
+        "fields": {
+            "name": "Veg Burger",
+            "logo": "/products/burgers.jpg",
+            "price": "50",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "BRG",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.Product",
+        "fields": {
+            "name": "Cheese Burger",
+            "logo": "/products/burgers.jpg",
+            "price": "30",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "BRG",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.Product",
+        "fields": {
+            "name": "Double Trouble Burger",
+            "logo": "/products/burgers.jpg",
+            "price": "70",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "BRG",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.Product",
+        "fields": {
+            "name": "Raw Sandwich",
+            "logo": "/products/grilled-sandwich.jpg",
+            "price": "45",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "SNW",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.Product",
+        "fields": {
+            "name": "Paneer Sandwich",
+            "logo": "/products/grilled-sandwich.jpg",
+            "price": "39",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "SNW",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.Product",
+        "fields": {
+            "name": "Grilled Sandwich",
+            "logo": "/products/toast.jpg",
+            "price": "59",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "SNW",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.Product",
+        "fields": {
+            "name": "Butter Toast",
+            "logo": "/products/toast.jpg",
+            "price": "45",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "TST",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.Product",
+        "fields": {
+            "name": "Jam Toast",
+            "logo": "/products/toast.jpg",
+            "price": "45",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "TST",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.Product",
+        "fields": {
+            "name": "Choco Toast",
+            "logo": "/products/toast.jpg",
+            "price": "56",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "TST",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.Product",
+        "fields": {
+            "name": "Hot Coffee",
+            "logo": "/products/cold-coffee.jpg",
+            "price": "78",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "BVR",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.Product",
+        "fields": {
+            "name": "Cold Coffee",
+            "logo": "/products/cold-coffee.jpg",
+            "price": "45",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "BVR",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.Product",
+        "fields": {
+            "name": "Cold Drink",
+            "logo": "/products/cold-drinks.jpg",
+            "price": "35",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "BVR",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.Product",
+        "fields": {
+            "name": "Tea",
+            "logo": "/products/tea.jpg",
+            "price": "15",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "BVR",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.Product",
+        "fields": {
+            "name": "Egg Bhurji",
+            "logo": "/products/chips.jpg",
+            "price": "45",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "OTH",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.Product",
+        "fields": {
+            "name": "Omlet",
+            "logo": "/products/chips.jpg",
+            "price": "45",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "OTH",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.Product",
+        "fields": {
+            "name": "Bread Omlet",
+            "logo": "/products/chips.jpg",
+            "price": "40",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "OTH",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.Product",
+        "fields": {
+            "name": "Chips",
+            "logo": "/products/chips.jpg",
+            "price": "40",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "OTH",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.Product",
+        "fields": {
+            "name": "Ziggi",
+            "logo": "/products/chips.jpg",
+            "price": "40",
+            "rating": "5.0",
+            "availability": "1",
+            "category": "OTH",
+            "created_at": "2016-08-20 15:56:28.293536",
+            "updated_at": "2016-08-20 15:56:28.293536"
+        }
+    }
+]

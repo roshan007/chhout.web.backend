@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+	Home Page
+{% endblock %}
+{% block content %}
+<section class="container" style="background-color: #fff;width:1300px;max-width:1357px;height:100%;">
+	<div class="row pd-20">
+		<div class="col-sm-12">
+			<div class="col-sm-2">
+				<a href="/"><i class="fa fa-arrow-left" style="font-size:1.4em;"></i> Back To Home</a>
+			</div>
+			<div class="col-sm-offset-3 col-sm-7">
+				<img src="/static/images/chotu-logo3.png" class="img-responsive" width="150px">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<form class="form-horizontal" id="login_form">
+				<h3 class="text-left" style="margin-top: 10px;margin-bottom:5px;">Sign in</h3>
+				<div class="form-group">
+					<label class="control-label">Email</label>
+					<input type="text" class="form-control" name="email" placeholder="Email Address" id="id_username" tabindex="1" required>
+				</div>
+				<div class="form-group">
+					<label class="control-label">Password</label><span class="pull-right" style="padding-top: 7px;"><a href="/forgot-password/"> Forgot you password?</a></span>
+					<input type="password" class="form-control" name="password" placeholder="Password" id="id_password" tabindex="2" required>
+				</div>
+				<div class="form-group text-center">
+					<input type="submit" taindex="3" id="register_submit" class="btn btn-info full-width" value="Sign in">
+				</div>
+				<div class="p-devider">
+					<h5 class="text-center"><span>New to Chhotu?</span></h5>
+				</div>
+				<div class="form-group text-center">
+					<a href="/register/" class="btn btn-secondary full-width">Create your account now</a>
+				</div>
+				<p class="tiny">By signing in, you are agreeing to our <a href="#">Conditions of Use and order</a> and <a href="#">Privacy Notice.</a></p>
+			</form>
+		</div>
+	</div>
+	<div class="a-devider"></div>
+	<div class="row centered">
+		<div class="col-sm-12">
+			<p class="text-center tiny">
+				<a href="#" class="pdlr-20">Help</a>
+				<a href="#" class="pdlr-20">Conditions of Use</a>
+				<a href="#" class="pdlr-20">Privacy Notice</a>
+			</p>
+			<p class="text-center tiny">© 1996-2016, Chhotu.com, Inc. or its affiliates</p>
+		</div>
+	</div>
+</section>
+{% endblock %}
+{% block extrascript %}
+<script type="text/javascript" src="/static/js/chhotu/login.js"></script>
+{% endblock %}
